@@ -1,7 +1,4 @@
-from traceback import print_list
-
 import mysql.connector as sql
-from mysql.connector.cursor_cext import CMySQLCursorBuffered
 
 mydb=sql.connect(
     host='localhost',
